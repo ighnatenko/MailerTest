@@ -6,6 +6,6 @@ class PostMailer < ApplicationMailer
   #   en.post_mailer.new_post.subject
   #
   def new_post
-    mail to: user.email, subject: "Welcome to my site", from: 'ignatenko_alexandr@meta.ua'
+    mail to: 'ighnatenko@meta.ua', subject: "Welcome to my site"
   end
 end
